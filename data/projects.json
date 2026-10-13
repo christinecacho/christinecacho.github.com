@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Portfolio Website",
+    "description": "My personal portfolio built with HTML, CSS and JS",
+    "technologies": "HTML, CSS, JavaScript",
+    "role": "Sole Developer",
+    "image": "project1.jpg",
+    "link": "https://github.com/yourusername/portfolio"
+  },
+  {
+    "title": "Grade Calculator",
+    "description": "Simple app to compute student grades",
+    "technologies": "Java",
+    "role": "Developer",
+    "image": "project2.jpg",
+    "link": "https://github.com/yourusername/grade-calc"
+  },
+  {
+    "title": "To-Do List",
+    "description": "Web app to organize daily tasks",
+    "technologies": "HTML, CSS, JavaScript",
+    "role": "Frontend Developer",
+    "image": "project3.jpg",
+    "link": "https://github.com/yourusername/todo"
+  }
+]
