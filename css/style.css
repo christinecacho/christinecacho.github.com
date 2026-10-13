@@ -1,0 +1,62 @@
+:root {
+  --blue: #2563eb;
+  --orange: #f97316;
+  --light: #f8fafc;
+  --dark: #1f2937;
+}
+* {margin:0; padding:0; box-sizing:border-box;}
+body {
+  font-family: Arial, sans-serif;
+  color: var(--dark);
+  background: #fff;
+  padding-top: 60px;
+  line-height: 1.6;
+}
+h1,h2,h3 {color: var(--blue); font-family: sans-serif;}
+section {max-width: 900px; margin: 0 auto 50px; padding: 0 15px;}
+h2 {border-bottom: 2px solid var(--blue); padding-bottom: 5px; margin-bottom: 15px;}
+
+/* Navigation — Sticky, Name left, Links right */
+nav {
+  position: fixed; top:0; left:0; right:0;
+  background: #fff; box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  padding: 10px 15px;
+  display: flex; justify-content: space-between; align-items: center;
+  z-index: 99;
+}
+.nav-name {font-weight: bold; font-size: 18px; color: var(--blue);}
+.nav-links a {margin-left: 12px; text-decoration: none; color: var(--dark);}
+.nav-links a:hover {color: var(--orange);}
+
+/* Project Cards */
+#projects-container {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 15px;
+}
+.project-card {
+  background: var(--light); padding: 15px; border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+/* GitHub Repos */
+#repos-list li {margin: 8px 0;}
+
+/* Form */
+form {background: var(--light); padding: 20px; border-radius: 8px; max-width: 450px;}
+input, textarea {
+  width: 100%; padding: 8px; margin: 5px 0 12px; border: 1px solid #ccc; border-radius: 4px;
+}
+input.invalid, textarea.invalid {border-color: red;}
+button {
+  background: var(--blue); color: #fff; border: none; padding: 10px 20px;
+  border-radius: 4px; cursor: pointer;
+}
+button:hover {background: var(--orange);}
+#thank-you {display: none; color: green; margin-top: 10px;}
+.error {color: red;}
+
+/* Back to Top Button */
+#back-top {
+  position: fixed; bottom: 20px; right: 20px; display: none;
+  background: var(--blue); color: #fff; border: none; padding: 10px 15px;
+  border-radius: 50%; font-size: 18px;
+}
