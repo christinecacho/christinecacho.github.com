@@ -1,134 +1,271 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="My personal portfolio, skills, projects and achievements.">
+  <title>My Portfolio | IT Student</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
 </head>
-<body>
+<body id="top">
 
-    <!-- ==================== NAVIGATION BAR ==================== -->
-    <nav>
-        <a href="#home">HOME</a> |
-        <a href="#about">ABOUT</a> |
-        <a href="#skills">SKILLS</a> |
-        <a href="#projects">PROJECTS</a> |
-        <a href="#contact">CONTACT</a>
+  <!-- Navigation -->
+  <header class="navbar">
+    <a href="#home" class="logo">MY<span>PORTFOLIO.</span></a>
+
+    <nav aria-label="Main navigation">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
     </nav>
 
-    <!-- ==================== HOME SECTION ==================== -->
-    <section id="home">
-        <h1>Christine B. Cacho</h1>
-        <h3>Aspiring Web Developer & IT Student</h3>
-        <p>I am a dedicated Information Technology student passionate about building functional and user-friendly websites and applications.</p>
-        
-        <h4>Profile Photo</h4>
-        <img src="profile.jpg" alt="My Profile Photo" width="200" height="200">
-        
-        <p><a href="#projects">View My Projects</a> | <a href="#contact">Contact Me</a></p>
+    <button id="themeToggle" class="theme-btn"
+      type="button" aria-label="Switch color theme">☀️</button>
+  </header>
+
+  <main>
+    <!-- HOME SECTION -->
+    <section id="home" class="hero section">
+      <div class="hero-content">
+        <p class="eyebrow">WELCOME TO MY PORTFOLIO</p>
+        <p class="intro">Hello! My name is Christine B. Cacho</p>
+
+        <!-- Replace with your name -->
+        <h1>YOUR <span>CHRISTINE B. CACHO</span></h1>
+
+        <h2 class="tagline">
+          <span id="typingText">Aspiring IT Professional</span>
+          <span class="cursor">|</span>
+        </h2>
+
+        <p class="hero-description">
+          I am an Information Technology student passionate about
+          programming, web development, computer networking, and
+          creating useful digital solutions. I enjoy learning new
+          technologies and turning ideas into working projects.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#projects" class="btn primary">View My Projects</a>
+          <a href="#contact" class="btn secondary">Contact Me</a>
+        </div>
+
+        <div class="hero-stats">
+          <div><strong>03+</strong><span>Sample Projects</span></div>
+          <div><strong>05+</strong><span>Technical Skills</span></div>
+          <div><strong>100%</strong><span>Ready to Learn</span></div>
+        </div>
+      </div>
+
+          <span>IT</span>
+        </div>
+        <h3>Future IT Professional</h3>
+        <p>Learn. Create. Innovate.</p>
+        <div class="status"><span></span> Open to learning opportunities</div>
+      </div>
     </section>
 
-    <hr>
+    <!-- ABOUT SECTION -->
+    <section id="about" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">GET TO KNOW ME</p>
+        <h2>About <span>Me</span></h2>
+        <p>My background, education, goals, and interests.</p>
+      </div>
 
-    <!-- ==================== ABOUT SECTION ==================== -->
-    <section id="about">
-        <h2>About Me</h2>
-        
-        <h4>Biography</h4>
-        <p>I am an IT student. I love learning new technologies and turning ideas into working digital solutions.</p>
-        
-        <h4>Education</h4>
-        <p>Bachelor of Science in Information Technology<br>
-        University of the Immaculate Conception / Your School<br>
-        Expected Graduation: 2028</p>
-        
-        <h4>Career Goals</h4>
-        <p>To become a professional full-stack web developer and contribute to meaningful tech projects.</p>
-        
-        <h4>Interests</h4>
-        <p>Web Development, UI/UX Design, Mobile Apps, Open Source Projects</p>
+      <div class="about-grid">
+        <article class="panel">
+          <h3>👋 Personal Introduction</h3>
+          <p>
+            I am an IT student who is developing skills in computer
+            programming, web design, software development, and
+            information systems. I believe that technology can solve
+            everyday problems and make work more efficient.
+          </p>
+          <p>
+            I am willing to explore new ideas, practice coding, accept
+            constructive feedback, and improve through hands-on
+            activities and collaboration with other students.
+          </p>
+        </article>
+
+        <article class="panel">
+          <h3>🎓 Education</h3>
+          <ul class="detail-list">
+            <li><strong>School:</strong> NVSU BAMBANG</li>
+            <li><strong>Program:</strong> Bachelor of Science in Information Technology</li>
+          </ul>
+        </article>
+
+        <article class="panel">
+          <h3>🎯 Career Goals</h3>
+          <p>
+            My goal is to become a skilled IT professional with a
+            strong foundation in programming, web development,
+            databases, and computer networks.
+          </p>
+          <p>
+            In the future, I hope to contribute to useful software
+            projects, gain practical experience, and continue learning
+            as technology evolves.
+          </p>
+        </article>
+
+        <article class="panel">
+          <h3>💡 Interests and Hobbies</h3>
+          <ul class="detail-list">
+            <li>Learning Java and other programming languages</li>
+            <li>Designing websites with HTML and CSS</li>
+            <li>Exploring computer hardware and networking</li>
+            <li>Solving technical problems</li>
+            <li>Working on creative and collaborative projects</li>
+          </ul>
+        </article>
+      </div>
     </section>
 
-    <hr>
+    <!-- SKILLS SECTION -->
+    <section id="skills" class="section alternate">
+      <div class="section-heading">
+        <p class="eyebrow">WHAT I AM LEARNING</p>
+        <h2>My <span>Skills</span></h2>
+        <p>Technical knowledge and personal strengths.</p>
+      </div>
 
-    <!-- ==================== SKILLS SECTION ==================== -->
-    <section id="skills">
-        <h2>My Skills</h2>
-        
-        <h4>Technical Skills</h4>
-        <ul>
-            <li>Web Development</li>
-            <li>Basic Database Management</li>
-            <li>Computer Troubleshooting</li>
-        </ul>
-        
-        <h4>Programming Languages</h4>
-        <ul>
-            <li>HTML & CSS</li>
-            <li>JavaScript</li>
-            <li>Java</li>
-            <li>Python</li>
-        </ul>
-        
-        <h4>Tools & Technologies</h4>
-        <ul>
-            <li>VS Code</li>
-            <li>Git & GitHub</li>
-            <li>MySQL</li>
-            <li>Figma</li>
-        </ul>
-        
-        <h4>Soft Skills</h4>
-        <ul>
-            <li>Teamwork & Collaboration</li>
-            <li>Problem Solving</li>
-            <li>Time Management</li>
-            <li>Willingness to Learn</li>
-        </ul>
+      <div class="skills-grid">
+        <article class="panel skill-card">
+          <div class="skill-icon">🌐</div>
+          <h3>Web Development</h3>
+          <p>Building web pages and layouts using HTML, CSS, and JavaScript.</p>
+          <div class="skill-tags"><span>HTML5</span><span>CSS3</span><span>JavaScript</span></div>
+        </article>
+
+        <article class="panel skill-card">
+          <div class="skill-icon">💻</div>
+          <h3>Programming</h3>
+          <p>Practicing program logic, methods, classes, and object-oriented programming.</p>
+          <div class="skill-tags"><span>Java</span><span>OOP</span><span>Problem Solving</span></div>
+        </article>
+
+        <article class="panel skill-card">
+          <div class="skill-icon">🗄️</div>
+          <h3>Data and Tools</h3>
+          <p>Learning how structured data is stored and how code is managed.</p>
+          <div class="skill-tags"><span>JSON</span><span>GitHub</span><span>VS Code</span></div>
+        </article>
+
+        <article class="panel skill-card">
+          <div class="skill-icon">🔌</div>
+          <h3>Computer Networking</h3>
+          <p>Understanding network models, UTP cables, IP addresses, and connectivity.</p>
+          <div class="skill-tags"><span>OSI Model</span><span>TCP/IP</span><span>Networking</span></div>
+        </article>
+      </div>
+
+      <div class="soft-skills panel">
+        <h3>Personal Strengths</h3>
+        <div class="skill-tags">
+          <span>Communication</span>
+          <span>Teamwork</span>
+          <span>Creativity</span>
+          <span>Time Management</span>
+          <span>Adaptability</span>
+          <span>Willingness to Learn</span>
+        </div>
+        <p class="note">These are example skills. Keep only those that honestly reflect your abilities.</p>
+      </div>
     </section>
 
-    <hr>
+    <!-- PROJECTS SECTION -->
+    <section id="projects" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">MY WORK</p>
+        <h2>My <span>Projects</span></h2>
+        <p>Example student projects loaded dynamically from a JSON file.</p>
+      </div>
 
-    <!-- ==================== PROJECTS SECTION ==================== -->
-    <section id="projects">
-        <h2>My Projects</h2>
+      <div id="projectFilters" class="filters">
+        <button class="filter-btn active" data-filter="All">All</button>
+        <button class="filter-btn" data-filter="Web">Web</button>
+        <button class="filter-btn" data-filter="Java">Java</button>
+        <button class="filter-btn" data-filter="Networking">Networking</button>
+      </div>
 
-        <!-- Project 1 -->
-        <h4>Project 1: Personal Portfolio Website</h4>
-        <p><strong>Description:</strong> A responsive personal portfolio to showcase my skills and projects.</p>
-        <p><strong>Technologies Used:</strong> HTML, CSS, JavaScript</p>
-        <p><strong>My Role:</strong> Sole Developer & Designer</p>
-        <p><strong>Link:</strong> <a href="https://github.com/christinecacho/portfolio" target="_blank">GitHub Repository</a></p>
-        <br><br>
+      <div id="projectList" class="projects-grid">
+        <p class="loading">Loading projects...</p>
+      </div>
 
-        <!-- Project 2 -->
-        <h4>Project 2: Student Grade Calculator</h4>
-        <p><strong>Description:</strong> A simple Java application that computes and displays student grades.</p>
-        <p><strong>Technologies Used:</strong> Java</p>
-        <p><strong>My Role:</strong> Programmer & Tester</p>
-        <p><strong>Link:</strong> <a href="https://github.com/christinecacho/grade-calculator" target="_blank">GitHub Repository</a></p>
-        <br><br>
+      <div class="github-panel panel">
+        <h3>⌨ Latest GitHub Repositories</h3>
+        <p>My five most recently updated public repositories.</p>
+        <div id="githubRepos">
+          <p class="loading">Loading GitHub repositories...</p>
+        </div>
+      </div>
 
-        <!-- Project 3 -->
-        <h4>Project 3: Simple To-Do List App</h4>
-        <p><strong>Description:</strong> A web-based app to organize daily tasks.</p>
-        <p><strong>Technologies Used:</strong> HTML, CSS, JavaScript</p>
-        <p><strong>My Role:</strong> Frontend Developer</p>
-        <p><strong>Link:</strong> <a href="https://github.com/christinecacho/todo-app" target="_blank">GitHub Repository</a></p>
+      <p class="note">
+        Note: The sample projects are examples for this portfolio.
+        Replace them with your actual work before submitting.
+      </p>
     </section>
 
-    <hr>
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="section alternate">
+      <div class="section-heading">
+        <p class="eyebrow">LET'S CONNECT</p>
+        <h2>Contact <span>Me</span></h2>
+        <p>Have a question, suggestion, or project idea? Send a message.</p>
+      </div>
 
-    <!-- ==================== CONTACT SECTION ==================== -->
-    <section id="contact">
-        <h2>Get In Touch</h2>
-        
-        <p><strong>Email:</strong> bajoncachochristine@gmail.com</p>
-        <p><strong>GitHub:</strong> <a href="https://github.com/christinecacho" target="_blank">github.com/christinecacho</a></p>
-        <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/christinecacho" target="_blank">linkedin.com/in/christinecacho</a></p>
+      <div class="contact-grid">
+        <div class="panel contact-info">
+          <h3>Contact Information</h3>
+          <p>Feel free to connect with me through the following platforms.</p>
+          <p>📧 <strong>Email:</strong> bajoncachristine@gmail.com</p>
+          <p>💻 <strong>GitHub:</strong>
+            <a id="githubProfile" href="https://github.com/"
+               target="_blank" rel="noopener">christinecacho.github.io</a>
+          </p>
+          <p>🔗 <strong>LinkedIn:</strong>
+            <a href="https://www.linkedin.com/"
+               target="_blank" rel="noopener">My LinkedIn</a>
+          </p>
+          <p class="note">Replace these example details with your public links.</p>
+        </div>
 
-        <h4>Send Me a Message</h4>
-        <form action="#" method="POST">
-            <label for="name">Name:</label>
-            <script src="js/script.js"></script>
+        <form id="contactForm" class="panel contact-form">
+          <label for="name">Full Name</label>
+          <input id="name" name="name" type="text"
+                 placeholder="Enter your name" required maxlength="80">
+
+          <label for="email">Email Address</label>
+          <input id="email" name="email" type="email"
+                 placeholder="you@example.com" required maxlength="120">
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5"
+                    placeholder="Write your message here..."
+                    required maxlength="1000"></textarea>
+
+          <button class="btn primary" type="submit">Send Message</button>
+          <p id="formStatus" role="status" aria-live="polite"></p>
+          <p class="note">Demo form only: messages are not emailed or stored.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> YOUR FULL NAME. Made with HTML, CSS, and JavaScript.</p>
+    <a href="#top">Back to top ↑</a>
+  </footer>
+
+  <button id="backToTop" class="back-top" type="button"
+          aria-label="Back to top">↑</button>
+
+</body>
+</html>
