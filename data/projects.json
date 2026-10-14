@@ -1,26 +1,35 @@
-[
-  {
-    "title": "Portfolio Website",
-    "description": "My personal portfolio built with HTML, CSS and JS",
-    "technologies": "HTML, CSS, JavaScript",
-    "role": "Sole Developer",
-    "image": "project1.jpg",
-    "link": "https://github.com/yourusername/portfolio"
-  },
-  {
-    "title": "Grade Calculator",
-    "description": "Simple app to compute student grades",
-    "technologies": "Java",
-    "role": "Developer",
-    "image": "project2.jpg",
-    "link": "https://github.com/yourusername/grade-calc"
-  },
-  {
-    "title": "To-Do List",
-    "description": "Web app to organize daily tasks",
-    "technologies": "HTML, CSS, JavaScript",
-    "role": "Frontend Developer",
-    "image": "project3.jpg",
-    "link": "https://github.com/yourusername/todo"
-  }
-]
+
+{
+  "projects": [
+    {
+      "title": "Personal Portfolio Website",
+      "category": "Web",
+      "description": "A responsive personal website presenting my biography, education, skills, sample projects, and contact information.",
+      "technologies": ["HTML5", "CSS3", "JavaScript"],
+      "role": "Designed the page structure, created the responsive layout, and implemented interactive features.",
+      "screenshot": "",
+      "github": "https://github.com/",
+      "demo": "#home"
+    },
+    {
+      "title": "Student Record Management System",
+      "category": "Java",
+      "description": "A sample student-record application concept for organizing student names, identification numbers, and academic information.",
+      "technologies": ["Java", "OOP", "Classes", "Methods"],
+      "role": "Planned the classes and fields and practiced object-oriented programming and basic record operations.",
+      "screenshot": "",
+      "github": "https://github.com/",
+      "demo": "#projects"
+    },
+    {
+      "title": "Computer Networking Guide",
+      "category": "Networking",
+      "description": "A learning project documenting the OSI model, network devices, UTP cable wiring, and basic troubleshooting.",
+      "technologies": ["Networking", "OSI Model", "TCP/IP"],
+      "role": "Organized networking concepts and prepared a beginner-friendly technical reference.",
+      "screenshot": "",
+      "github": "https://github.com/",
+      "demo": "#projects"
+    }
+  ]
+}
