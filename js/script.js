@@ -268,8 +268,7 @@ contactForm.addEventListener("submit", event => {
   }
 
   formStatus.textContent =
-    `Thank you,Your form passed validation. ` +
-    "This demonstration does not send an email.";
+    `Thank you,Your form passed validation. `;
 
   contactForm.reset();
 });
