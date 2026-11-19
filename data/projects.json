@@ -29,7 +29,18 @@
       "role": "Organized networking concepts and prepared a beginner-friendly technical reference.",
       "screenshot": "",
       "github": "https://github.com/christinecacho/christinecacho.github.com",
-      "demo": "#projects"
+      "demo": "#projects",
     }
   ]
+{
+    "title": "Workout Log App",
+    "category": "mobile",
+    "description": "A simple mobile application to track and record daily workouts. Built with FlutterFlow.",
+    "technologies": ["FlutterFlow"],
+    "role": "Designed the app interface and database structure.",
+    "screenshot": "",
+    "github": "https://github.com/christinecacho/Workout-Log",
+    "demo": "#projects"
 }
+}
+]
