@@ -1,5 +1,6 @@
 {
-  "projects": [
+  "projects": 
+  [
     {
       "title": "Personal Portfolio Website",
       "category": "Web",
@@ -9,7 +10,7 @@
       "screenshot": "",
       "github": "https://github.com/christinecacho/christinecacho.github.com",
       "demo": "#home"
-    },
+    }
     {
       "title": "WorkOutLOg",
       "category": "App",
@@ -18,16 +19,4 @@
       "role": "Fronted Developer",
       "Link": "https://app.flutterflow.io/project/work-out-log-ap1dqm?tab=uiBuilder&page=WorkOutLog"
     }
-    {
-      "title": "Computer Networking Guide",
-      "category": "Networking",
-      "description": "A learning project documenting the OSI model, network devices, UTP cable wiring, and basic troubleshooting.",
-      "technologies": ["Networking", "OSI Model", "TCP/IP"],
-      "role": "Organized networking concepts and prepared a beginner-friendly technical reference.",
-      "screenshot": "",
-      "github": "https://github.com/christinecacho/christinecacho.github.com",
-      "demo": "#projects",
-    }
-{
-  
-
+  ]
