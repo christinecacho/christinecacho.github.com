@@ -1,24 +1,33 @@
-
 {
   "projects": [
     {
-      [
-  {
-    "title": "Personal Portfolio Website",
-    "description": "A responsive portfolio website built to showcase my projects and skills.",
-    "technologies": ["HTML", "CSS", "GitHub Pages"],
-    "role": "Lead Developer",
-    "github": "https://github.com/christinecacho/christinecacho.github.io",
-    "demo": "https://christinecacho.github.io/"
-  },
-  {
-    "title": "Workout Log App",
-    "category": "Mobile App",
-    "description": "A simple mobile application to track and record daily workouts and exercise routines.",
-    "technologies": ["FlutterFlow", "Mobile App"],
-    "role": "Built the full application — UI design, data tracking, add/edit/delete entries, and workout history.",
-    "screenshot": "",
-    "github": "https://github.com/christinecacho/Workout-Log",
-    "demo": "https://app.flutterflow.io/project/work-out-log-ap1dqm?tab=uiBuilder&page=WorkoutLog"
-  }
-]
+      "title": "Personal Portfolio Website",
+      "category": "Web",
+      "description": "A responsive personal website presenting my biography, education, skills, sample projects, and contact information.",
+      "technologies": ["HTML5", "CSS3", "JavaScript"],
+      "role": "Designed the page structure, created the responsive layout, and implemented interactive features.",
+      "screenshot": "",
+      "github": "https://github.com/christinecacho/christinecacho.github.com",
+      "demo": "#home"
+    },
+    {
+      "title": "WorkOutLOg",
+      "category": "App",
+      "description": "Gym begginers",
+      "technologies": "FlutterFlow, CSS",
+      "role": "Fronted Developer",
+      "Link": "https://app.flutterflow.io/project/work-out-log-ap1dqm?tab=uiBuilder&page=WorkOutLog"
+    }
+    {
+      "title": "Computer Networking Guide",
+      "category": "Networking",
+      "description": "A learning project documenting the OSI model, network devices, UTP cable wiring, and basic troubleshooting.",
+      "technologies": ["Networking", "OSI Model", "TCP/IP"],
+      "role": "Organized networking concepts and prepared a beginner-friendly technical reference.",
+      "screenshot": "",
+      "github": "https://github.com/christinecacho/christinecacho.github.com",
+      "demo": "#projects",
+    }
+{
+  
+
