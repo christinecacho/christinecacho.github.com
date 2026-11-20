@@ -23,7 +23,8 @@ document.getElementById("githubProfile").href =
 
 async function loadProjects() {
   try {
-    const response = await fetch("data/projects.json");
+   const response = await fetch(`data/projects.json?t=${Date.now()}`);
+    
 
     if (!response.ok) {
       throw new Error("Projects file could not be found.");
