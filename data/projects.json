@@ -34,11 +34,11 @@
 {
     "title": "Workout Log App",
     "category": "mobile",
-    "description": "https://app.flutterflow.io/project/work-out-log-ap1dqm?tab=widgetTree&page=WorkOutLog",
+    "description": "Designed the app interface and database structure.",
     "technologies": ["FlutterFlow"],
     "role": "Designed the app interface and database structure.",
     "screenshot": "",
     "github": "https://github.com/christinecacho/Workout-Log",
-    "demo": "#projects"
+    "demo": "https://app.flutterflow.io/project/work-out-log-ap1dqm?tab=widgetTree&page=WorkOutLog"
 }
-}
+
