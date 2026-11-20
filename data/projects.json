@@ -1,9 +1,9 @@
-
-  "projects":[
+{
+  "projects": [
     {
       "title": "Personal Portfolio Website",
       "category": "Web",
-      "description": "A responsive personal website presenting my biography, education, skills, sample projects, and contact information.",
+      "description": "A responsive personal website presenting my biography, education, skills, sample projects, and...",
       "technologies": ["HTML5", "CSS3", "JavaScript"],
       "role": "Designed the page structure, created the responsive layout, and implemented interactive features.",
       "screenshot": "",
@@ -14,10 +14,11 @@
       "title": "Workout Log",
       "category": "App",
       "description": "Gym begginers",
-      "technologies": "FlutterFlow, CSS",
-      "role": "Fronted Developer",
+      "technologies": ["FlutterFlow", "CSS"],
+      "role": "Frontend Developer",
+      "screenshot": "",
+      "github": "",
       "link": "https://app.flutterflow.io/run/q1dH48AqDrD3dZs6uNtD"
     }
   ]
-
-
+}
