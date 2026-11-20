@@ -11,24 +11,12 @@
       "demo": "#home"
     },
     {
-      "title": "Student Record Management System",
-      "category": "Java",
-      "description": "A sample student-record application concept for organizing student names, identification numbers, and academic information.",
-      "technologies": ["Java", "OOP", "Classes", "Methods"],
-      "role": "Planned the classes and fields and practiced object-oriented programming and basic record operations.",
-      "screenshot": "",
-      "github": "https://github.com/christinecacho/christinecacho.github.com",
-      "demo": "#projects"
-    },
-    {
-      "title": "Computer Networking Guide",
-      "category": "Networking",
-      "description": "A learning project documenting the OSI model, network devices, UTP cable wiring, and basic troubleshooting.",
-      "technologies": ["Networking", "OSI Model", "TCP/IP"],
-      "role": "Organized networking concepts and prepared a beginner-friendly technical reference.",
-      "screenshot": "",
-      "github": "https://github.com/christinecacho/christinecacho.github.com",
-      "demo": "#projects",
+      "title": "Workout Log",
+      "category": "App",
+      "description": "Gym begginers",
+      "technologies": "FlutterFlow, CSS",
+      "role": "Fronted Developer",
+      "link": "https://app.flutterflow.io/run/q1dH48AqDrD3dZs6uNtD"
     }
   ]
 
